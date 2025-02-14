@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="keywords" />
+    <meta name="robots" content="robots" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <header>sdsd</header>
+    <footer></footer>
+    <div class="popup-consultation darkening popup">
+      <div class="window">
+        <h2 class="font-3">
+          Отправьте заявку<br />
+          <span class="modal-title">
+            <div></div>
+            <!--
+            и получите консультацию<br />
+            по продукции</span
+          >
+          <span style="white-space: nowrap">M&K Sound--></span
+          >
+        </h2>
+
+        <form class="from__modal" id="consultForm">
+          <input type="hidden" id="titleHiddenMail" name="title" value="*" />
+          <input
+            type="hidden"
+            id="titleHiddenData"
+            name="title-mail"
+            value="Заявка на консультацию"
+          />
+          <div class="form__wrap">
+            <label for="name">Ваше имя</label>
+            <input
+              placeholder="Иван Иванов"
+              type="text"
+              id="name"
+              name="name"
+              required
+              minlength="3"
+            />
+          </div>
+          <div class="form__wrap form-mb">
+            <label for="tel">Ваш телефон</label>
+            <input
+              placeholder="+7 (___) __-__-__"
+              type="tel"
+              id="tel"
+              name="tel"
+              required
+            />
+          </div>
+
+          <button type="submit" class="red-btn" id="send-btn">
+            <span class="btn-mark">Получить консультацию</span>
+          </button>
+
+          <div class="accept">
+            <span
+              >Нажимая кнопку "Получить консультацию", я подтверждаю, что
+              ознакомлен и согласен с условиями 
+              <a
+                href="https://audioholics.ru/monitor/privacy.html"
+                target="_blank"
+                >политики &nbsp; обработки  персональных данных</a
+              ></span
+            >
+          </div>
+        </form>
+
+        <button class="closeConsultation closeAllModal">+</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="./js/sliders.js"></script>
+  <script type="module" src="./js/telMask.js"></script>
+  <script type="module" src="./js/metrika.js"></script>
+
+  <noscript>
+    <div>
+      <img
+        src="https://mc.yandex.ru/watch/99870093"
+        style="position: absolute; left: -9999px"
+        alt=""
+      />
+    </div>
+  </noscript>
+</html>

@@ -1,0 +1,77 @@
+@import "./header.css";
+@import "./swiper.css";
+@import "./footer.css";
+@import "./modals.css";
+@import "./privacy.css";
+@import "./thanks.css";
+@import "./normalize.css";
+
+:root {
+    --color-white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background: white;
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+a:active {
+    color: var(--color-white);
+}
+
+
+
+button {
+    background-color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--color-white);
+}
+
+button:active {
+    background-color: var(--color-white);
+}
+
+.red-btn {
+    font-size: 26px;
+    width: 390px;
+    color: var(--color-white);
+    height: 95px;
+    font-weight: bold;
+}
+
+input {
+    background: #f2f5f9;
+    border: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #979fa8;
+    font-size: 20px;
+}
