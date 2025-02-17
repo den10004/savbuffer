@@ -1,0 +1,134 @@
+.estimation {
+    margin-top: 130px;
+}
+
+.estimation__block {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estimation__block>div:first-child {
+    width: 50%;
+    background: url(./../images/estimationg.webp);
+    background-repeat: no-repeat;
+    height: 922px;
+    position: relative;
+}
+
+.estimation-sub {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -150px;
+}
+
+.estimation-thx {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 73px;
+}
+
+
+.estimation__block>div:last-child {
+    width: 44.5%;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .estimation {
+        margin-top: 95px;
+    }
+
+    .estimation__block>div:first-child {
+        background-size: 50%;
+        width: 42%;
+        background-size: contain;
+        height: 610px;
+    }
+
+
+    .estimation__block>div:last-child {
+        width: 49%;
+    }
+
+    .estimation__block>div:last-child>p {
+        font-size: 16px !important;
+    }
+
+    .estimation-thx {
+        width: 62%;
+        top: 50px;
+    }
+
+    .estimation-sub {
+        bottom: -67px;
+        width: 68%;
+    }
+
+    .estimation__block {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .estimation {
+        margin-top: 50px;
+    }
+
+    .estimation__block {
+        margin-top: 50px;
+    }
+
+    .estimation__block>div:first-child {
+        height: 490px;
+        width: 41%;
+    }
+
+    .estimation-thx {
+        width: 70%;
+        top: 50px;
+    }
+
+    .estimation-sub {
+        bottom: -76px;
+        width: 87%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .estimation__block {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .estimation__block>div:first-child {
+        background-size: 100%;
+        width: 100%;
+        height: 400px;
+    }
+
+    .estimation__block>div:last-child {
+        margin-top: 90px;
+        width: 100%;
+    }
+
+    .estimation-sub {
+        width: 210px;
+    }
+
+    .estimation-thx {
+        width: 42%;
+    }
+}

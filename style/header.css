@@ -6,7 +6,7 @@
 }
 
 .header {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .main__menu {
@@ -407,6 +407,11 @@
         width: 255px;
         bottom: -46px;
     }
+
+    .header-layout {
+        background-image: url(./../images/bg-460.webp);
+    }
+
 }
 
 @media screen and (max-width: 420px) {
