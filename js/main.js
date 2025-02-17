@@ -226,7 +226,7 @@ function sendForm(form) {
 
       closeAllModals();
       btn.disabled = false;
-      window.location.href = "https://audioholics.ru/monitor/thanks.html";
+      window.location.href = "https://audioics.ru/monitor/thanks.html";
     } catch (error) {
       console.error("Произошла ошибка при отправке формы.", error);
       alert("Произошла ошибка при отправке формы.", error);

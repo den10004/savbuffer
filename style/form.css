@@ -1,0 +1,290 @@
+.form {
+    margin-top: 175px;
+}
+
+.from__wrap>h4>span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form__block {
+    display: flex;
+    max-width: 1920px;
+    margin: 75px auto 0 auto;
+}
+
+.form__block>img {
+    width: 1010px
+}
+
+.from__wrap {
+    margin: 95px 0 0 130px;
+}
+
+.form-main {
+    width: 540px;
+    margin-top: 50px;
+}
+
+.form-main>div:not(:last-child) {
+    margin-bottom: 37px;
+}
+
+
+
+.form-main>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.form-main>div>label {
+    font-size: 16px;
+}
+
+.form-main>div>input {
+    width: 400px;
+    height: 70px;
+}
+
+.form-main>button {
+    width: 100% !important;
+}
+
+.politic {
+    font-size: 16px;
+    color: var(--gray-link);
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 40px;
+    padding-right: 27px;
+}
+
+
+.politic>span>a {
+    font-size: 16px;
+    color: var(--gray-link);
+    line-height: 1.5;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-link);
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+
+.form>div>h2 {
+    max-width: 100%
+}
+
+@media screen and (max-width: 1700px) {
+    .form {
+        margin-top: 65px;
+    }
+
+    .from__wrap {
+        margin-left: 85px;
+    }
+
+    .form>div>h2 {
+        max-width: 984px;
+    }
+
+    .form__block {
+        margin-top: 57px;
+    }
+
+    .form__block>img {
+        width: 820px
+    }
+
+    .form-main {
+        width: 360px;
+    }
+
+    .form-main>div {
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .form-main>div>input {
+        width: 100%;
+        height: 55px;
+        margin-top: 5px;
+    }
+
+    .from__wrap>h4>span {
+        font-size: 24px;
+    }
+
+    .form-main>button {
+        font-size: 20px !important;
+        margin-top: 20px;
+    }
+
+    .from__wrap {
+        margin: 45px 0 0 85px;
+    }
+
+    .form-main>div:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .politic {
+        font-size: 14px;
+    }
+
+    .politic>span>a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .form {
+        margin-top: 135px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .form {
+        margin-top: 80px;
+    }
+
+    .form>div>h2 {
+        max-width: 720px;
+    }
+
+    .form__block {
+        margin-top: 40px;
+    }
+
+    .form__block>img {
+        width: 700px
+    }
+
+    .form-main {
+        width: 264px;
+    }
+
+    .form-main>div>input {
+        height: 45px;
+    }
+
+    .from__wrap>h4>span {
+        font-size: 18px;
+    }
+
+    .form-main>div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .form-main>button {
+        font-size: 16px !important;
+    }
+
+    .from__wrap {
+        margin: 45px 0 0 70px;
+    }
+
+    .form-main {
+        margin-top: 30px;
+    }
+
+    .form-main>button {
+        margin-top: 5px;
+    }
+
+    .politic {
+        font-size: 12px;
+    }
+
+    .politic>span>a {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .form__block>img {
+        width: 500px
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .from__wrap {
+        margin: 30px 0 0 70px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .form__block>img {
+        width: 400px;
+        height: 276px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .form {
+        margin-top: 55px;
+    }
+
+    .form__block {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    .from__wrap {
+        margin: 30px 0 0 0px;
+    }
+
+    .politic {
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .form__block>img {
+        width: 360px;
+        height: 248px;
+    }
+
+    .form__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-right: 0px;
+    }
+
+    .from__wrap {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .form-main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .form__block>img {
+        width: 320px;
+        height: 243px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .form__block>img {
+        width: 300px;
+        height: 223px;
+    }
+}
