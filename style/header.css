@@ -1,6 +1,13 @@
+.header-bg-main {
+    background-image: url(./../images/bg.webp);
+}
+
+.header-bg-goods {
+    background-image: url(./../images/header-bg-goods.webp);
+}
+
 .header-layout {
     background-color: #342483;
-    background-image: url(./../images/bg.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -294,6 +301,14 @@
         padding: 15px 0 80px 0;
     }
 
+    .header-bg-goods>.layout>.header {
+        padding: 15px 0 50px 0 !important;
+    }
+
+    .header-bg-goods>.layout>.header {
+        padding: 15px 0 15px 0 !important;
+    }
+
     .header__content {
         margin-bottom: 230px;
     }
@@ -396,6 +411,10 @@
     .header {
         padding: 15px 0 100px 0;
     }
+
+    .header-bg-goods>.layout>.header {
+        padding: 15px 0 15px 0 !important;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -408,10 +427,9 @@
         bottom: -46px;
     }
 
-    .header-layout {
+    .header-bg-main {
         background-image: url(./../images/bg-460.webp);
     }
-
 }
 
 @media screen and (max-width: 420px) {

@@ -37,7 +37,7 @@
 }
 
 .goodSwiper .swiper-pagination-bullet {
-    width: 100px;
+    width: 130px;
     height: 5px;
     border-radius: 0px;
 }
@@ -54,7 +54,7 @@
 .swiper-pagination-fraction {
     display: flex;
     justify-content: space-between;
-    bottom: 0px;
+    bottom: 40px !important;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -293,6 +293,17 @@
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-        bottom: 0px;
+        bottom: 10px !important;
+        width: 45% !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .goodSwiper .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        width: 55% !important;
     }
 }
