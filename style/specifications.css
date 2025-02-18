@@ -2,16 +2,11 @@
     max-width: 1590px;
     padding: 0 20px;
     box-sizing: border-box;
-    margin: 120px auto 0 auto;
+    margin: 80px auto 0 auto;
 }
 
-.specifications {
-    display: flex;
-    justify-content: space-between;
-}
-
-.specifications>div {
-    width: 48%;
+.specifications-top {
+    margin-top: 55px;
 }
 
 .spec-bold {
@@ -20,6 +15,7 @@
 
 .specifications__list {
     margin-top: 30px;
+    max-width: 1165px;
 }
 
 .specifications__list>li {
@@ -28,7 +24,7 @@
 }
 
 .specifications__list>li:nth-child(odd) {
-    background: var(--gray-f8);
+    background: var(--gray);
     border-top: 1px solid var(--gray-border);
 }
 
@@ -67,10 +63,6 @@
 
     .specifications>div {
         width: 100%;
-    }
-
-    .specifications__right {
-        margin-top: 50px;
     }
 
     .specifications__color {
