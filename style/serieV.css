@@ -3,19 +3,22 @@
 }
 
 
-.serieV__notice {
+.serieV-first {
     margin-top: 70px;
+}
+
+.serieV__notice {
     background: var(--gray);
     width: 100%;
-    padding: 80px 200px 80px 70px;
+    padding: 73px 110px 83px 73px;
     box-sizing: border-box;
     position: relative;
-
 }
 
 .serieV__notice>blockquote {
     padding-left: 100px;
-    line-height: 1.25 !important
+    line-height: 1.25 !important;
+    font-style: italic;
 }
 
 .serieV__notice>div {
@@ -36,14 +39,93 @@
     background-repeat: no-repeat;
 }
 
+.serieV__subwoofer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.serieV__subwoofer>div {
+    width: 360px;
+}
+
+.serieV__subwoofer>div>h4 {
+    margin-bottom: 28px;
+    font-size: 52px;
+}
+
+.serieV__subwoofer>div>p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 36px 0 20px 0;
+}
+
+.serieV__subwoofer>div>a>button {
+    width: 100%;
+    color: var(--color-white);
+    padding: 35px 0;
+    font-size: 26px;
+}
+
+.serieV-mt {
+    margin-top: 115px;
+    position: relative;
+}
+
+.notice-stamp {
+    position: absolute;
+    bottom: -105px;
+    width: 210px;
+    right: 75px;
+}
+
+.serieV-head {
+    padding-right: 110px;
+}
+
+.serieV-second {
+    margin-top: 200px;
+}
+
+.serieV__history {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.serieV__history>div {
+    width: calc(100% / 2.2);
+}
+
+.serieV-mt>blockquote>strong {
+    font-size: 52px;
+}
+
+.embedded-sub>div>h4 {
+    margin-bottom: 28px;
+    font-size: 43px;
+}
+
+.serieV-embedded {
+    margin-top: 170px !important;
+}
+
+.embedded-sub {
+    margin-top: 75px !important;
+}
+
 @media screen and (max-width: 1400px) {
     .serieV {
         margin-top: 150px;
     }
 
-    .serieV__notice {
-        padding: 70px 45px 60px 70px;
+    .serieV-first {
         margin-top: 43px;
+    }
+
+    .serieV__notice {
+        padding: 70px 78px 60px 70px;
     }
 
     .serieV__notice>blockquote {
@@ -54,6 +136,81 @@
         font-size: 16px;
         margin-top: 38px;
     }
+
+    .serieV__subwoofer {
+        margin-top: 80px;
+        padding-right: 80px;
+    }
+
+    .serieV__subwoofer>div {
+        width: 292px;
+    }
+
+    .serieV__subwoofer>div>img {
+        width: 100%;
+    }
+
+    .serieV__subwoofer>div>p {
+        font-size: 22px;
+        margin: 30px 0 10px 0;
+    }
+
+    .serieV__subwoofer>div>h4 {
+        margin-bottom: 23px;
+        font-size: 32px;
+    }
+
+    .serieV__subwoofer>div>a>button {
+        padding: 25px 0;
+        font-size: 20px;
+    }
+
+    .serieV-mt {
+        margin-top: 95px;
+    }
+
+    .notice-stamp {
+        width: 156px;
+        bottom: -50px;
+        right: 130px;
+    }
+
+    .serieV-second {
+        margin-top: 156px;
+    }
+
+    .serieV-head {
+        padding-right: 136px;
+    }
+
+    .serieV__history>div>p {
+        font-size: 16px !important;
+    }
+
+    .serieV-mt>blockquote>strong {
+        font-size: 30px;
+    }
+
+    .serieV__history>div {
+        width: calc(100% / 2.05);
+    }
+
+    .serieV-mtt {
+        margin-top: 20px !important;
+    }
+
+    .embedded-sub>div>h4 {
+        margin-bottom: 28px;
+        font-size: 30px;
+    }
+
+    .serieV-embedded {
+        margin-top: 145px !important;
+    }
+
+    .embedded-sub {
+        margin-top: 47px !important;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -62,7 +219,7 @@
     }
 
     .serieV__notice {
-        padding: 45px 45px 50px 30px;
+        padding: 41px 25px 50px 20px;
     }
 
     .serieV__notice:before {
@@ -84,6 +241,112 @@
         margin-top: 23px;
         padding-left: 77px;
     }
+
+    .serieV__subwoofer {
+        margin-top: 77px;
+        padding-right: 60px;
+    }
+
+    .serieV__subwoofer>div>h4 {
+        margin-bottom: 23px;
+        font-size: 25px;
+    }
+
+    .serieV__subwoofer>div {
+        width: 205px;
+    }
+
+    .serieV__subwoofer>div>p {
+        font-size: 18px;
+        margin: 40px 0 10px 0;
+    }
+
+    .serieV__subwoofer>div>a>button {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+
+    .serieV-mt {
+        margin-top: 90px;
+    }
+
+    .notice-stamp {
+        width: 126px;
+        bottom: -42px;
+        right: 57px;
+    }
+
+    .serieV-second {
+        margin-top: 144px;
+    }
+
+    .serieV__history {
+        margin-top: 62px;
+        padding-bottom: 8px;
+    }
+
+    .serieV__history>div {
+        width: calc(100% / 2.05);
+    }
+
+    .serieV-mt>blockquote>strong {
+        font-size: 26px;
+    }
+
+    .embedded-sub>div>h4 {
+        margin-bottom: 28px;
+        font-size: 24px;
+    }
+
+    .serieV-embedded {
+        margin-top: 120px !important;
+    }
+
+    .embedded-sub {
+        margin-top: 47px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .serieV__subwoofer {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .serieV__subwoofer>div {
+        width: calc((100% / 3) - 10px);
+    }
+
+    .serieV-mt {
+        margin-top: 70px;
+    }
+
+    .serieV__subwoofer>div>p {
+        font-size: 16px;
+    }
+
+    .serieV-head {
+        padding-right: 0;
+    }
+
+    .embedded-sub>div>h4 {
+        font-size: 20px;
+    }
+
+    .serieV__subwoofer-empty {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .serieV__subwoofer>div>p {
+        font-size: 13px;
+    }
+
+    .embedded-sub>div>h4 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -91,9 +354,14 @@
         padding: 20px;
     }
 
+
     .serieV__notice:before {
         top: -10px;
         left: 20px;
+    }
+
+    .serieV__subwoofer>div>p {
+        font-size: 16px;
     }
 
     .serieV__notice>blockquote {
@@ -103,5 +371,72 @@
 
     .serieV__notice>div {
         padding-left: 0px;
+    }
+
+    .serieV__subwoofer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 70px;
+    }
+
+    .serieV__subwoofer>div {
+        width: 100%;
+    }
+
+    .serieV__subwoofer>div>p {
+        font-size: 16px;
+        margin: 30px 0 10px 0;
+    }
+
+    .serieV__subwoofer>div:first-child {
+        margin-bottom: 55px;
+    }
+
+    .serieV__subwoofer>div:nth-child(2) {
+        margin-bottom: 55px;
+    }
+
+    .notice-stamp {
+        width: 110px;
+        right: 31px;
+    }
+
+    .serieV__history {
+        flex-direction: column;
+    }
+
+    .serieV__history>div {
+        width: 100%;
+    }
+
+    .serieV__history>div:first-child {
+        margin-bottom: 30px;
+    }
+
+    .serieV-embedded {
+        margin-top: 85px !important;
+    }
+
+    .serieV__subwoofer {
+        margin-top: 35px;
+    }
+
+    .serieV-mtt>div>h4>br {
+        display: none;
+    }
+
+    .embedded-sub>div>h4 {
+        font-size: 20px;
+    }
+
+    .embedded-sub>div>h4>br {
+        display: none
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .embedded-sub>div>h4 {
+        font-size: 18px;
     }
 }

@@ -73,21 +73,11 @@
     cursor: pointer;
 }
 
-.form>div>h2 {
-    max-width: 100%
-}
+
 
 @media screen and (max-width: 1700px) {
-    .form {
-        margin-top: 65px;
-    }
-
     .from__wrap {
         margin-left: 85px;
-    }
-
-    .form>div>h2 {
-        max-width: 984px;
     }
 
     .form__block {
@@ -149,10 +139,6 @@
 @media screen and (max-width: 1300px) {
     .form {
         margin-top: 80px;
-    }
-
-    .form>div>h2 {
-        max-width: 720px;
     }
 
     .form__block {
