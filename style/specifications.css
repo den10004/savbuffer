@@ -53,11 +53,21 @@
     margin-top: 70px;
 }
 
+.good__text>h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 1400px) {
     .layout-specifications {
         max-width: 1195px;
     }
+
+    .good__text>h5 {
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -72,6 +82,10 @@
     .specifications__list>li>div {
         padding-left: 20px;
         font-size: 14px;
+    }
+
+    .good__text>h5 {
+        font-size: 18px;
     }
 }
 
@@ -135,5 +149,9 @@
 
     .specifications__list>li {
         padding: 15px 15px 15px 0;
+    }
+
+    .good__text>h5 {
+        font-size: 16px;
     }
 }
