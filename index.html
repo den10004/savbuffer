@@ -33,20 +33,24 @@
       <header class="layout">
         <div class="header">
           <div class="header__top">
-            <a href="/" class="header__logo"><img src="./images/logo.png" /></a>
+            <a href="/subwoofer" class="header__logo"
+              ><img src="./images/logo.png"
+            /></a>
             <ul class="header__nav">
               <div>
-                <li><a href="https://audioholics.ru/monitor">ГЛАВНАЯ</a></li>
+                <li><a href="/subwoofer">ГЛАВНАЯ</a></li>
                 <li>
-                  <a href="#V+P">M&K SOUND СЕРИЯ V+P</a>
+                  <a href="/subwoofer#V+P">M&K SOUND СЕРИЯ V+P</a>
                 </li>
                 <li>
-                  <a href="#X+">M&K SOUND СЕРИЯ X+</a>
+                  <a href="/subwoofer#X+">M&K SOUND СЕРИЯ X+</a>
                 </li>
               </div>
               <div>
                 <li>
-                  <a href="#embedded_subwoofers">Встраиваемые сабвуферы</a>
+                  <a href="/subwoofer#embedded_subwoofers"
+                    >Встраиваемые сабвуферы</a
+                  >
                 </li>
                 <li>
                   <a href="#"
@@ -450,7 +454,7 @@
             </h4>
             <img src="./images/IW28S.webp" alt="Сабвуферы серии V+" />
             <p>Цена по запросу (₽)</p>
-            <a href="/IW28S.html"><button>Подробнее</button></a>
+            <a href="./IW28S.html"><button>Подробнее</button></a>
           </div>
           <div>
             <h4>
@@ -527,7 +531,7 @@
               <span
                 >Нажимая кнопку "Получить консультацию", я подтверждаю, что
                 ознакомлен и согласен с условиями
-                <a href="./privacy.html"
+                <a href="subwoofer/privacy.html"
                   >политики обработки персональных данных</a
                 ></span
               >
@@ -541,19 +545,23 @@
       <footer class="layout">
         <div class="footer">
           <div class="footer__top">
-            <a href="/" class="footer__logo"><img src="./images/logo.png" /></a>
+            <a href="/subwoofer" class="footer__logo"
+              ><img src="./images/logo.png"
+            /></a>
             <div>
               <ul class="footer__nav">
                 <div>
-                  <li><a href="/">Главная</a></li>
-                  <li><a href="#V+P">M&K SOUND СЕРИЯ V+P</a></li>
+                  <li><a href="/subwoofer">Главная</a></li>
+                  <li><a href="/subwoofer#V+P">M&K SOUND СЕРИЯ V+P</a></li>
                 </div>
                 <div>
-                  <li><a href="#X+">M&K SOUND СЕРИЯ X+</a></li>
+                  <li><a href="/subwoofer#X+">M&K SOUND СЕРИЯ X+</a></li>
                 </div>
                 <div>
                   <li>
-                    <a href="#embedded_subwoofers">Встраиваемые сабвуферы</a>
+                    <a href="/subwoofer#embedded_subwoofers"
+                      >Встраиваемые сабвуферы</a
+                    >
                   </li>
                   <li>
                     <a href="#">
@@ -574,9 +582,7 @@
           </div>
           <div class="footer__bottom">
             <div>
-              <a href="https://audioholics.ru/monitor/privacy.html"
-                >Политика конфиденциальности</a
-              >
+              <a href="/subwoofer/privacy.html">Политика конфиденциальности</a>
             </div>
           </div>
         </div>
@@ -635,9 +641,7 @@
             <span
               >Нажимая кнопку "Получить консультацию", я подтверждаю, что
               ознакомлен и согласен с условиями 
-              <a
-                href="https://audioholics.ru/monitor/privacy.html"
-                target="_blank"
+              <a href="/subwoofer/privacy.html" target="_blank"
                 >политики &nbsp; обработки  персональных данных</a
               ></span
             >
@@ -685,6 +689,22 @@
         nextEl: ".cardsSlider-button-next",
       },
     });
+  </script>
+
+  <script>
+    const anchors = document.querySelectorAll('a[href*="#"]');
+    for (let anchor of anchors) {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const blockID = anchor.getAttribute("href").substr(1);
+
+        document.getElementById(blockID).scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+    }
   </script>
 
   <noscript>
