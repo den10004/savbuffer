@@ -124,7 +124,7 @@
 
 .header__img>div>img {
     position: absolute;
-    top: -496px;
+    top: -510px;
     right: calc(50% - 609px);
     width: 517px;
 }
@@ -140,7 +140,7 @@
     }
 
     .header__img>div>img {
-        top: -449px;
+        top: -425px;
         right: calc(50% - 532px);
         width: 418px;
     }
