@@ -40,17 +40,15 @@
               <div>
                 <li><a href="/subwoofer">ГЛАВНАЯ</a></li>
                 <li>
-                  <a href="/subwoofer#V+P">M&K SOUND СЕРИЯ V+P</a>
+                  <a href="#V+P">M&K SOUND СЕРИЯ V+P</a>
                 </li>
                 <li>
-                  <a href="/subwoofer#X+">M&K SOUND СЕРИЯ X+</a>
+                  <a href="#X+">M&K SOUND СЕРИЯ X+</a>
                 </li>
               </div>
               <div>
                 <li>
-                  <a href="/subwoofer#embedded_subwoofers"
-                    >Встраиваемые сабвуферы</a
-                  >
+                  <a href="#embedded_subwoofers">Встраиваемые сабвуферы</a>
                 </li>
                 <li>
                   <a href="#"
@@ -552,16 +550,14 @@
               <ul class="footer__nav">
                 <div>
                   <li><a href="/subwoofer">Главная</a></li>
-                  <li><a href="/subwoofer#V+P">M&K SOUND СЕРИЯ V+P</a></li>
+                  <li><a href="#V+P">M&K SOUND СЕРИЯ V+P</a></li>
                 </div>
                 <div>
-                  <li><a href="/subwoofer#X+">M&K SOUND СЕРИЯ X+</a></li>
+                  <li><a href="#X+">M&K SOUND СЕРИЯ X+</a></li>
                 </div>
                 <div>
                   <li>
-                    <a href="/subwoofer#embedded_subwoofers"
-                      >Встраиваемые сабвуферы</a
-                    >
+                    <a href="#embedded_subwoofers">Встраиваемые сабвуферы</a>
                   </li>
                   <li>
                     <a href="#">
@@ -696,9 +692,8 @@
     for (let anchor of anchors) {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
-
         const blockID = anchor.getAttribute("href").substr(1);
-
+        console.log(blockID);
         document.getElementById(blockID).scrollIntoView({
           behavior: "smooth",
           block: "start",
