@@ -34,4 +34,13 @@ var swiper = new Swiper(".goodSwiper", {
   thumbs: {
     swiper: swiper2,
   },
+  navigation: {
+    prevEl: ".goods-button-prev",
+    nextEl: ".goods-button-next",
+  },
 });
+
+if (swiper.slides.length < 5) {
+  swiper.navigation.nextEl.style.display = "none";
+  swiper.navigation.prevEl.style.display = "none";
+}

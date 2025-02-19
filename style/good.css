@@ -79,6 +79,16 @@
     display: none;
 }
 
+.goodsNavigation>button {
+    background: transparent !important;
+    border: none;
+}
+
+.goodsNavigation {
+    display: none;
+}
+
+
 @media screen and (max-width: 1400px) {
     .good {
         margin-top: 100px;
@@ -165,6 +175,14 @@
         object-fit: contain;
     }
 
+    .goodsNavigation {
+        position: absolute;
+        top: 36%;
+        left: -31px;
+        width: 108%;
+        display: flex;
+        justify-content: space-between;
+    }
 
     .goodsPagination {
         display: none;
@@ -184,6 +202,14 @@
 }
 
 
+@media screen and (max-width: 900px) {
+    .goodsNavigation {
+        left: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .good {
         margin-top: 40px;
@@ -192,9 +218,6 @@
     .good-font-headline {
         font-size: 20px;
     }
-
-
-
 
     .good__description {
         margin-top: 30px;
@@ -219,25 +242,37 @@
 
     .mySwiper {
         display: block;
-        height: 95%;
+        /*
+        height: 95%;*/
+        height: 430px;
         box-sizing: border-box;
         width: 120px;
     }
 
     .mySwiper .swiper-slide {
+        width: 100%;
+        height: 100%;
         opacity: 0.4;
     }
 
+
     .mySwiper .swiper-slide-thumb-active {
         opacity: 1;
+        width: 100%;
     }
 
+    .goodsNavigation {
+        display: none;
+    }
+
+
+    /*
     .mySwiper>div>div>img {
         margin: 0 auto;
         width: 100%;
         object-fit: contain;
     }
-
+*/
     .goodSwiper {
         width: calc(100% - 150px);
     }
@@ -247,7 +282,7 @@
     }
 
     .good__silder {
-        height: auto;
+        height: 100%;
         display: flex;
         justify-content: space-between;
     }
