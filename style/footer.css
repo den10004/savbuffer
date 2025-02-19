@@ -27,6 +27,10 @@
     margin-right: 50px;
 }
 
+.footer__nav>div:nth-child(2)>li {
+    margin-right: 50px;
+}
+
 .footer__nav>div:last-child>li:first-child {
     margin-right: 50px;
 }
@@ -35,14 +39,13 @@
 .footer__nav>div>li>a {
     font-size: 16px;
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: center;
     white-space: nowrap;
 }
 
 .footer__nav>div {
     display: flex;
-    margin-bottom: 25px;
 }
 
 
@@ -52,7 +55,6 @@
     font-weight: bold;
     line-height: 1.467;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .footer__bottom {
@@ -100,7 +102,7 @@
 
     .footer__nav {
         margin-bottom: 0px;
-        max-width: 300px;
+        max-width: 400px;
         flex-wrap: wrap;
         margin-top: 40px;
         border-bottom: 0
@@ -109,8 +111,8 @@
     .footer__nav>div {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 5px;
     }
 
 
@@ -121,7 +123,11 @@
     }
 
     .footer__nav>div:first-child>li {
-        margin-right: 0;
+        margin-right: 0px;
+    }
+
+    .footer__nav>div:nth-child(2)>li {
+        margin-right: 0px;
     }
 
     .footer__nav>div:last-child>li:first-child {
@@ -184,6 +190,12 @@
     .footer__nav>div:first-child {
         margin-top: 25px;
     }
+
+
+    .footer__nav>div::nth-child(2) {
+        margin-top: 25px;
+    }
+
 
     .footer__tel {
         margin: 20px 0 0 0;

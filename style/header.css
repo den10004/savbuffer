@@ -124,7 +124,7 @@
 
 .header__img>div>img {
     position: absolute;
-    top: -510px;
+    top: -496px;
     right: calc(50% - 609px);
     width: 517px;
 }
@@ -140,7 +140,7 @@
     }
 
     .header__img>div>img {
-        top: -425px;
+        top: -449px;
         right: calc(50% - 532px);
         width: 418px;
     }
@@ -246,7 +246,7 @@
     }
 
     .header__nav {
-        max-width: 300px;
+        max-width: 400px;
         flex-wrap: wrap;
     }
 
