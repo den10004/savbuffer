@@ -198,7 +198,7 @@ function fd(formData) {
   formData.append("utm_position_type", getCookie("utm_position_type") || "");
   formData.append("utm_source_type", getCookie("utm_source_type") || "");
   formData.append("yclid", getCookie("yclid") || "");
-  formData.append("subject", "Заявка с сайта мониторы MK Sound");
+  formData.append("subject", "Сабвуферы MK Sound");
 }
 
 function sendForm(form) {
@@ -226,7 +226,7 @@ function sendForm(form) {
 
       closeAllModals();
       btn.disabled = false;
-      window.location.href = "https://audioics.ru/subwoofer/thanks.html";
+      window.location.href = "/subwoofer/thanks.html";
     } catch (error) {
       console.error("Произошла ошибка при отправке формы.", error);
       alert("Произошла ошибка при отправке формы.", error);

@@ -43,10 +43,16 @@
 }
 
 .specifications__list>li>div {
-    padding-left: 30px;
     box-sizing: border-box;
     width: 48%;
+}
 
+.specifications__list>li>div:first-child {
+    padding: 0 20px 0 20px;
+}
+
+.specifications__list>li>div:last-child {
+    padding: 0 20px 0 20px;
 }
 
 .specifications__color {
@@ -80,7 +86,6 @@
     }
 
     .specifications__list>li>div {
-        padding-left: 20px;
         font-size: 14px;
     }
 
@@ -141,6 +146,20 @@
     .specifications__list>li:nth-child(even) {
         border-bottom: none;
     }
+
+
+    .specifications__list>li>div:nth-child(2) {
+        padding: 0 0 0 20px;
+    }
+
+    .specifications__list>li>div:first-child {
+        padding: 0 0 0 20px;
+    }
+
+    .specifications__list>li>div:last-child {
+        padding: 0 0 0 20px;
+    }
+
 
     .specifications__list>li>div {
         width: 100%;
