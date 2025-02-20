@@ -212,8 +212,6 @@ function sendForm(form) {
       let object = {};
 
       fd(formData);
-      console.log(formData.get("title"));
-
       const response = await fetch("https://audioholics.ru/sendforms.php", {
         method: "POST",
         body: formData,
