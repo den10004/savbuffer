@@ -193,7 +193,8 @@
 
 @media screen and (max-width: 1200px) {
     .form__block>img {
-        width: 500px
+        width: 500px;
+        height: 384px;
     }
 }
 
@@ -258,6 +259,12 @@
 
     .form-main {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form>div>h2>span>br {
+        display: none;
     }
 }
 
