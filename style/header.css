@@ -291,7 +291,6 @@
     }
 
     .header__img>div>img {
-        width: 300px;
         top: -328px;
         right: calc(50% - 272px);
     }
