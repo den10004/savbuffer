@@ -1,14 +1,10 @@
 import { defineConfig } from "vite";
-import viteCompression from "vite-plugin-compression";
 import imagemin from "vite-plugin-imagemin";
 
 export default defineConfig({
   base: "",
   assetsInclude: ["**/*.ico"],
   plugins: [
-    viteCompression({
-      algorithm: "gzip",
-    }),
     imagemin({
       gifsicle: { optimizationLevel: 3 },
       mozjpeg: { quality: 75 },
