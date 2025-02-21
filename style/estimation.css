@@ -99,8 +99,8 @@
     }
 
     .estimation-sub {
-        bottom: -76px;
-        width: 87%;
+        bottom: 63px;
+        width: 61%;
     }
 }
 
@@ -126,9 +126,33 @@
 
     .estimation-sub {
         width: 210px;
+        bottom: -79px;
     }
 
     .estimation-thx {
         width: 42%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .estimation-sub {
+        bottom: -40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .estimation-sub {
+        bottom: -20px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .estimation-sub {
+        width: 180px;
+        bottom: -7px;
+    }
+
+    .estimation__block>div:last-child {
+        margin-top: 20px;
     }
 }
