@@ -20,7 +20,7 @@
 }
 
 .studios__card>img {
-    width: 100%;
+    max-width: 165px;
     margin-bottom: 7px;
 
 }

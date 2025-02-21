@@ -127,6 +127,7 @@
     top: -496px;
     right: calc(50% - 609px);
     width: 517px;
+    height: auto;
 }
 
 @media screen and (max-width: 1590px) {
@@ -192,7 +193,7 @@
     }
 
     .header__img>div>img {
-        top: -335px;
+        top: -366px;
         right: calc(50% - 426px);
         width: 383px;
     }
@@ -265,7 +266,7 @@
     }
 
     .header__img>div>img {
-        top: -314px;
+        top: -327px;
         right: calc(50% - 356px);
         width: 317px;
     }
