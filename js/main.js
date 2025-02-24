@@ -198,7 +198,7 @@ function fd(formData) {
   formData.append("utm_position_type", getCookie("utm_position_type") || "");
   formData.append("utm_source_type", getCookie("utm_source_type") || "");
   formData.append("yclid", getCookie("yclid") || "");
-  formData.append("subject", "Сабвуферы MK Sound");
+  formData.append("subject", "Заявка с сайта сабвуферы MK Sound");
 }
 
 function sendForm(form) {
