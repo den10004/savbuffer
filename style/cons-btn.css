@@ -31,7 +31,6 @@
     .cons__btn {
         width: 440px;
         height: 90px;
-        bottom: 225px;
         z-index: 10;
     }
 
@@ -48,24 +47,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .cons__btn {
-        bottom: 200px;
-    }
-}
-
 @media screen and (max-width: 520px) {
     .cons__btn {
         width: 90%;
         right: 20px;
     }
-}
 
-@media screen and (max-width: 425px) {
     .cons__btn {
-        bottom: 292px;
+        bottom: 20px;
     }
 }
+
 
 @media screen and (max-width: 450px) {
     .cons__btn>p {
